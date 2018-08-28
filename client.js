@@ -16,7 +16,9 @@ const mayella =  new Employee( 'Mayella', '89068', '35000', 2 );
 const employees = [ atticus, jem, scout, robert, mayella ]; // this is an array of objects
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
-$(document).ready(readyNow)
+$(document).ready(function(){
+  $('#button').on('click',readyNow);
+})
 
 let modifiedEmployeeInfo = []
 
